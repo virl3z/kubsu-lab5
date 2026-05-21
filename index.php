@@ -4,7 +4,7 @@ header('Content-Type: text/html; charset=UTF-8');
 
 // Подключение к БД
 $db_user = 'u82669';
-$db_pass = 'ВАШ_ПАРОЛЬ';
+$db_pass = '9085380';
 try {
     $db = new PDO('mysql:host=localhost;dbname=u82669', $db_user, $db_pass,
         [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
